@@ -1,0 +1,367 @@
+body
+{
+    background-color: #f8f6f4;
+    color: #03045e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    height: auto;
+}
+#header
+{
+    display: flex;
+    margin: 20px 30px 20px 70px;
+}
+#circleIcon
+{
+    height: 10px;
+    width: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+#squareIcon
+{
+    height: 50px;
+    width: 50px;
+    border: 8px solid #e900ff;
+    border-top: 8px solid #ff9900;
+    border-left: 8px solid rgba(255, 0, 0, 0.482);
+    border-right: 8px solid rgba(255, 0, 0, 0.482);
+    border-radius: 30%;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+#intro
+{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+#intro p
+{
+    margin-top: -15px;
+}
+#bellIcon
+{
+    margin-left: 450px;
+}
+#profilePicHeader
+{
+    border-radius: 50%;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+#dropdownMenu
+{
+    margin-left: 20px;
+}
+#dropdownMenuOption
+{
+    border: 0px;
+}
+#leftMenu
+{
+    height: 1000px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#leftMenu p
+{
+    margin-left: 15px;
+}
+.menu
+{
+    display: flex;
+    margin: 20px;
+}
+.menu img
+{
+    height: 41px;
+    width: 45px;
+}
+.menu:hover
+{
+    font-size: 20px;
+    translate: 20px;
+    cursor: pointer;
+}
+
+#left
+{
+    display: flex;
+   
+  
+}
+#center
+{
+    background-color: rgba(128, 128, 128, 0.256);
+    height: 800px;
+    width: 1000px;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    
+   
+}
+#myProfile img
+{   margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 293px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: #fed9b7;
+}
+.greenCircle
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#00ff00;
+    margin-top: -35px;
+    margin-left: 250px;
+}
+#save
+{
+    background-color: #ff9900;
+    border-radius: 30px;
+    border:#00ff00;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#save:hover
+{   cursor: pointer;
+    background-color: rgb(239, 10, 10);
+
+}
+#edit
+{
+    background-color: rgba(128, 128, 128, 0.509);
+    border-radius: 30px;
+    border:rgba(128, 128, 128, 0.509);
+    color: black;
+    margin-left: 20px;
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+}
+#blockAccount
+{
+    background-color:#ff5100;
+    border-radius: 30px;
+    border:#ff5100;
+    color: white;
+    font-weight: bolder;
+    height: 30px;
+    width: 200px;
+}
+#unblockAccount
+{
+    background-color: #0ab00a;
+    border-radius: 30px;
+    border:#0f960f;
+    color: white;
+    font-weight: bolder;
+    height: 30px;
+    width: 200px;
+}
+#myXpayAccounts1
+{
+    display: flex;
+}
+#myXpayAccounts2
+{
+    display: flex;
+    gap: 70px;
+    margin-top: 10px;
+    
+    
+}
+#myXpayAccounts2 p
+{
+    align-content: left;
+    text-align: center;
+}
+#myXpayAccounts3 
+{
+    display: flex;
+    gap: 72px;
+    margin-top: 100px;
+}
+#myXpayAccounts3 p
+{
+    align-content: left;
+    text-align: center;
+}
+#myXpayAccounts1 img
+{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#myXpayAccounts
+{
+    height: 260px;
+    width: 450px;
+    border: 2px solid #0b0b0b;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #f7eff1;
+    font-weight: 400px;
+    font-style: bold;
+}
+
+
+#location
+{
+    margin-top: -50px;
+    margin-left: 200px;
+    color: black;
+}
+#myProfile
+{
+    height: 650px;
+    width: 350px;
+    background-color: white;
+    border: 2px solid #535656;
+    padding: 50px;
+    padding-top: 0%;
+    border-radius: 30px;  
+    
+    color: #0b0b0b;
+}
+#myProfile h3
+{   color: black;
+    text-shadow: #0b0b0b;
+
+}
+#myProfile a
+{   color: rgb(174, 14, 14);
+
+}
+#myXpayAccounts2 p
+{
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+#myXpayAccounts3 p
+{
+    margin-top: -8px;
+    margin-bottom: -8px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#myXpayAccounts1 p
+{
+    margin: 2px 40px;
+}
+#myBills
+{
+    height: 300px;
+    width: 450px;
+    border: 2px solid #121111;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 15.9px;
+    background-color: #f5f0f0;
+}
+select
+{
+    background-color: #fed9b7;
+}
+#myBills1
+{
+    display: flex;
+    gap: 240px
+}
+#myBills2
+{
+    display: flex;
+    margin-top: 15px;
+}
+#myBills3
+{
+    display: flex;
+}
+#myBills4
+{
+    display: flex;
+}
+#myBills5
+{
+    display: flex;
+}
+#filterBy   
+{
+    background-color: rgba(128, 128, 128, 0.509);
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.509);
+    color: black;
+    height: 30px;
+    width: 100px;
+    margin-top: 15px;
+}
+#myBills2 h4
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+#myBills3 h4
+{
+    margin-left: 30px;
+    margin-top: 10px
+}
+#myBills4 h4
+{
+    margin-left: 30px;
+    margin-top: 10px
+}
+#myBills5 h4
+{
+    margin-left: 30px;
+    margin-top: 10px
+}
+.greenCircleBills
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#0b8d0b;
+    margin-top: 10px
+
+}
+.redCircleBills
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#ff6200;
+    margin-top: 10px
+
+}
+.billPaid
+{
+    background-color:#0eae0e;
+    border-radius: 30px;
+    border: 1px solid #0fa20f;
+    margin-left: 168px;
+    height: 30px;
+    width: 120px;
+
+}
+#billNotPaid
+{
+    background-color:#ff6200;
+    border-radius: 30px;
+    border: 1px solid #ff6200;
+    margin-left: 168px;
+    height: 30px;
+    width: 120px;
+}
